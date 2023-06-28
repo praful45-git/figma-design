@@ -1,0 +1,164 @@
+* {
+
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #F5F6FA;
+}
+
+.divider {
+    height: 2px;
+    color: #f5f6fa;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Text Styles */
+.text-heading {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #333333;
+}
+
+.text-subhead {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #858A8F;
+}
+
+.text-back {
+    color: #397EFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.form-i-t {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.text-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.text-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #858A8F;
+}
+
+.text-desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #858A8F;
+}
+
+.text-n {
+    color: #858A8F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.text-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #377DFF;
+}
+
+.grey-text {
+    color: #858A8F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* Information */
+
+.info-head {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.info-btn {
+    align-self: start;
+}
+
+.arrow-img {
+    width: 20px;
+    height: 20px;
+
+}
+
+/* form */
+/* form-control-height */
+.f-c-h {
+    height: 64px;
+}
+
+.inp-outline {
+    outline: 1px solid #F5F6FA;
+}
+
+.form-control::placeholder {
+    color: #AAB0B7;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+/* Footer */
+footer {
+    background-color: white;
+}
+
+.footer-main {
+    padding: 150px 100px 50px 100px;
+
+}
+
+.footer-main li {
+    list-style: none;
+
+}
+
+.footer-main a {
+    text-decoration: none;
+}
+
+.copyright {
+    color: #898A8E;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+/* media queries */
+@media (min-width: 992px) {
+    .btn-responsive {
+        width: 179px;
+        /* height: 57px; */
+        text-align: center;
+        justify-content: center;
+        /* padding: 16px 500px; */
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        background-color: #377DFF;
+    }
+}
