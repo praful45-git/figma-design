@@ -120,6 +120,27 @@ body {
     line-height: 24px;
 }
 
+#fileInput {
+    margin-bottom: 60px;
+}
+
+.fileinputs {
+    position: relative;
+}
+
+.fakefile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.file {
+    position: relative;
+    text-align: left;
+    opacity: 0;
+    z-index: 2;
+}
 
 /* Footer */
 footer {
@@ -162,3 +183,4 @@ footer {
         background-color: #377DFF;
     }
 }
+
